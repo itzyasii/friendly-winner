@@ -1,0 +1,133 @@
+body{
+   margin: 0;
+   padding: 0;
+      background-color: #e9e8ed;
+
+}
+#img1{
+   height: 400px;
+   width: 500px;
+   background-size: cover;
+   /*z-index: -1;*/
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+#img2{
+   height: 400px;
+   width: 500px;
+   background-size: cover;
+   /*z-index: -1;*/
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   z-index: -1;
+
+}
+
+.main{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+
+}
+#DateContainer{
+   display: flex;
+   justify-content: space-evenly;  
+   height: 100px;
+   width: 600px;
+   position: relative;
+   border-top: 3px black solid;
+   border-bottom: 3px solid black;
+   margin-bottom: 50px;
+
+}
+#greetings{
+   text-align: center;
+   font-size: 22px;
+   font-weight: 100;
+   color: #4B4B4B;
+
+}
+#day{
+   border-right: 2px solid black;
+   height: 60px;
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-top: 20px;
+   padding-right: 30px;
+
+}
+
+#brideName{
+   font-size: 40px;
+   margin: 0;
+   font-weight: bolder;
+
+
+}
+#and{
+   font-style: italic;
+   font-weight: 100;
+
+}
+#groomName{
+   font-size: 40px;
+   margin-top: 0;
+   margin-bottom: 80px;
+}
+#date{
+   border-right: 2px solid black;
+   height: 60px;
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-top: 20px;
+   padding-right: 30px;
+
+
+}
+#time{
+   height: 60px;
+   width: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-top: 20px;
+
+}
+#dayText{
+   font-style: italic;
+   font-size: 18px
+
+}
+#dateText{
+   text-align: center;
+   font-size: 18px;
+   font-weight: bold;
+
+}
+#timeText{
+   font-size: 18px;
+   font-style: italic;
+}
+#addr1{
+   margin: 0;
+   padding-top: 10px;
+}
+#addr2{
+   text-align: center;
+   font-weight: 100;
+   font-size: 18px;
+}
